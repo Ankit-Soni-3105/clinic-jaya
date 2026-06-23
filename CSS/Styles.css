@@ -9,17 +9,15 @@
   --color-blue-border: #d9ddfe;
   --color-placeholder: #c5c5c5;
   --color-blue-footer: #d7dbff;
-  --color-gradient: linear-gradient(
-    to right,
-    rgb(234, 81, 213),
-    rgb(170, 101, 240)
-  );
+  --color-gradient: linear-gradient(to right,
+      rgb(234, 81, 213),
+      rgb(170, 101, 240));
 }
 
 /* ---Font--- */
 @font-face {
   font-family: Poppins;
-  font-style: normal;
+  font-style: initial;
   font-weight: 500;
   src: url("../Fonts/Poppins/Poppins-Medium.ttf") format("truetype");
 }
@@ -149,19 +147,19 @@ hr {
   transition: 0.5s ease-in-out;
 }
 
-.two:hover ~ hr {
+.two:hover~hr {
   margin-left: 19%;
 }
 
-.three:hover ~ hr {
+.three:hover~hr {
   margin-left: 39%;
 }
 
-.four:hover ~ hr {
+.four:hover~hr {
   margin-left: 58%;
 }
 
-.five:hover ~ hr {
+.five:hover~hr {
   margin-left: 78%;
 }
 
@@ -291,6 +289,7 @@ hr {
   text-align: center;
   margin-top: 3rem;
 }
+
 /* ---------End of core---------- */
 
 /* ---About--- */
@@ -486,6 +485,7 @@ hr {
   margin-top: -3rem;
   background-size: 82% 100%;
 }
+
 .expert1 {
   display: flex;
   justify-content: space-between;
@@ -811,6 +811,7 @@ input {
   text-align: center;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
+
 .wrapper .icon:hover span i {
   color: #fff;
 }
@@ -819,6 +820,7 @@ input {
   font-size: 25px;
   line-height: 33px;
 }
+
 .wrapper .icon .tooltip {
   position: absolute;
   top: 0px;
@@ -906,6 +908,7 @@ input {
 .btn:focus {
   outline: 0;
 }
+
 .btn:before,
 .btn:after {
   position: absolute;
@@ -918,6 +921,7 @@ input {
   transition: all ease-in-out 0.5s;
   background-repeat: no-repeat;
 }
+
 .btn:before {
   display: none;
   top: -75%;
@@ -933,6 +937,7 @@ input {
   background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,
     10% 10%, 18% 18%;
 }
+
 .btn:after {
   display: none;
   bottom: -75%;
@@ -945,15 +950,18 @@ input {
     radial-gradient(circle, #ff0081 20%, transparent 20%);
   background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
 }
+
 .btn:active {
   transform: scale(0.9);
   background-color: #e60074;
   box-shadow: 0 2px 25px rgba(255, 0, 130, 0.2);
 }
+
 .btn.animate:before {
   display: block;
   animation: topBubbles ease-in-out 0.75s forwards;
 }
+
 .btn.animate:after {
   display: block;
   animation: bottomBubbles ease-in-out 0.75s forwards;
@@ -964,31 +972,37 @@ input {
     background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%,
       40% 90%, 55% 90%, 70% 90%;
   }
+
   50% {
     background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%,
       50% 50%, 65% 20%, 90% 30%;
   }
+
   100% {
     background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%,
       50% 40%, 65% 10%, 90% 20%;
     background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
   }
 }
+
 @keyframes bottomBubbles {
   0% {
     background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%,
       70% -10%, 70% 0%;
   }
+
   50% {
     background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%,
       105% 0%;
   }
+
   100% {
     background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%,
       110% 10%;
     background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
   }
 }
+
 /* ---------------- */
 
 .hamburger {
@@ -1383,6 +1397,7 @@ input {
   .container {
     padding-inline: 3%;
   }
+
   .nav {
     left: 71%;
   }
@@ -1522,6 +1537,7 @@ input {
     margin-left: -0.4rem;
     width: 23.5rem;
   }
+
   .socialmedia__icon i {
     margin-top: -3rem;
     font-size: 2.3rem;
