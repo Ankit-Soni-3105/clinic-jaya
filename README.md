@@ -1,0 +1,32 @@
+# <a href="https://vinodjangid07.github.io/" target="_blank">My Portfolio</a>
+<p align="justify">This website displays my Projects, Web presence, Story, Work experience, and contact information.</p>
+
+[![Repository Status](https://img.shields.io/badge/Repository%20Status-Maintained-dark%20green.svg)]((https://github.com//clinic-project))
+[![Website Status](https://img.shields.io/website?url=https://clinic-app.vercel.app)](https://clinic-app.vercel.app)
+[![Author](https://img.shields.io/badge/Author-Jayati%20Arse-blue)](https://github.com/jayatiarse)
+
+
+
+![clinic](https://github.com/user-attachments/assets/5b7c4212-4f5a-4580-a91a-bc3d51070db5)
+
+
+
+:star: Star me on GitHub — it helps!
+
+# Sections 📚
+
+✔️ Home \
+✔️ About  \
+✔️ Service \
+✔️ Gallery \
+✔️ Contact 
+
+
+
+## Tools Used 🛠️
+* [<b>GitHub</b>](https://github.com/) - To host my static website (HTML, CSS, JS).
+* [<b>Animate on scroll library</b>](https://github.com/michalsnik/aos) - To animate my website while scrolling.
+* [<b>Animista</b>](https://animista.net/) - To use Interactive animations
+
+
+Please contact me at arsejayati@gmail.com if you have any feedback for the website. :star: Star it, if you like it!
